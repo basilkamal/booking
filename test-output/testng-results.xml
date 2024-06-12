@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-13T01:58:31 EET" name="Default suite" finished-at="2024-06-13T01:58:55 EET" duration-ms="23722">
+    <groups>
+    </groups>
+    <test started-at="2024-06-13T01:58:31 EET" name="Default test" finished-at="2024-06-13T01:58:55 EET" duration-ms="23722">
+      <class name="booking.myTest">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:31 EET" name="mySetup" finished-at="2024-06-13T01:58:42 EET" duration-ms="10903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="checkTheNextStayIsDisplayed()[pri:1, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:42 EET" name="checkTheNextStayIsDisplayed" finished-at="2024-06-13T01:58:43 EET" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheNextStayIsDisplayed -->
+        <test-method signature="selectAcity()[pri:2, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:43 EET" name="selectAcity" finished-at="2024-06-13T01:58:43 EET" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAcity -->
+        <test-method signature="CheckInAndOutDate()[pri:3, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:43 EET" name="CheckInAndOutDate" finished-at="2024-06-13T01:58:44 EET" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInAndOutDate -->
+        <test-method signature="numberOfRooms()[pri:4, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:44 EET" name="numberOfRooms" finished-at="2024-06-13T01:58:45 EET" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfRooms -->
+        <test-method signature="SearchButton()[pri:5, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:45 EET" name="SearchButton" finished-at="2024-06-13T01:58:49 EET" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchButton -->
+        <test-method signature="propertiesFoundNumber()[pri:6, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:49 EET" name="propertiesFoundNumber" finished-at="2024-06-13T01:58:54 EET" duration-ms="5209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertiesFoundNumber -->
+        <test-method signature="ScrollToElements()[pri:7, instance:booking.myTest@4f071df8]" started-at="2024-06-13T01:58:54 EET" name="ScrollToElements" finished-at="2024-06-13T01:58:55 EET" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollToElements -->
+      </class> <!-- booking.myTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
