@@ -26,10 +26,10 @@ public class myTest extends parameters {
 		driver.manage().window().maximize();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		List<WebElement> popupScreens = driver.findElements(By.className("f0c216ee26"));
+		List<WebElement> popupScreens = driver.findElements(By.className("a6482c8acb"));
 		if (!popupScreens.isEmpty() && popupScreens.get(0).isDisplayed()) {
 			WebElement popupScreen = popupScreens.get(0);
-			WebElement exit = popupScreen.findElement(By.className("f4552b6561"));
+			WebElement exit = popupScreen.findElement(By.cssSelector(".bf33709ee1.a190bb5f27.dc0e35d124.a746857c37.e8d0e5d0c1.b81c794d25.f0298d74a8"));
 			exit.click();
 		}
 
@@ -98,15 +98,17 @@ public class myTest extends parameters {
 
 	@Test(priority = 6)
 	public void propertiesFoundNumber() {
-		// print properties Found Number
+		
+		//popupScreen 
 
 		
-		List<WebElement> PopupScreens = driver.findElements(By.className("dd5dccd82f"));
+		List<WebElement> PopupScreens = driver.findElements(By.className("a6482c8acb"));
 		if (!PopupScreens.isEmpty() && PopupScreens.get(0).isDisplayed()) {
 			WebElement popupScreen = PopupScreens.get(0);
-			WebElement Exit = popupScreen.findElement(By.cssSelector(".a83ed08757.c21c56c305.f38b6daa18.d691166b09.ab98298258.deab83296e.f4552b6561"));
+			WebElement Exit = popupScreen.findElement(By.cssSelector(".bf33709ee1.a190bb5f27.dc0e35d124.a746857c37.e8d0e5d0c1.b81c794d25.f0298d74a8"));
 			Exit.click();
-		
+		}
+			// print properties Found Number
 		
 		String number = "";
 		try {
@@ -122,7 +124,7 @@ public class myTest extends parameters {
 		}
 
 		System.out.println(number); 
-		}
+		
 
 	}
 
@@ -130,7 +132,7 @@ public class myTest extends parameters {
 	public void ScrollToElements() {
 		// Scroll To Element"10" and print the hotel name and click to hart icon
 		WebElement nextStayText = driver.findElement(By.cssSelector(
-				"body > div:nth-child(6) > div:nth-child(1) > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(23) > div:nth-child(1)"));
+				"body > div:nth-child(6) > div:nth-child(1) > div:nth-child(8) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(27)"));
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'end'});",
 				nextStayText);
 		// print hotel name
@@ -153,9 +155,15 @@ public class myTest extends parameters {
 
 	}
 
-	@Test(priority = 8 , enabled = false)
-	public void checkThePrice() throws InterruptedException  {
+	@Test(priority = 8 , enabled = true)
+	public void checkThePrice() throws InterruptedException   {
 		// check the price is lower 700
+		Thread.sleep(5000);
+		//driver.findElement(By.cssSelector(".bui-button.wl-btn.share-list")).click();
+		//driver.findElement(By.cssSelector(".bui-button.bui-button--primary.bui-button--wide.js-listview-book")).click();
+		
+		 driver.findElement(By.cssSelector(".bui-button.bui-button--primary.bui-button--wide.js-listview-book")).click();		
+		
 		
 		
     }

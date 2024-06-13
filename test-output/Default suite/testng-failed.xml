@@ -5,14 +5,8 @@
     <classes>
       <class name="booking.myTest">
         <methods>
-          <include name="CheckInAndOutDate"/>
+          <include name="checkThePrice"/>
           <include name="mySetup"/>
-          <include name="ScrollToElements"/>
-          <include name="checkTheNextStayIsDisplayed"/>
-          <include name="numberOfRooms"/>
-          <include name="propertiesFoundNumber"/>
-          <include name="SearchButton"/>
-          <include name="selectAcity"/>
         </methods>
       </class> <!-- booking.myTest -->
     </classes>
