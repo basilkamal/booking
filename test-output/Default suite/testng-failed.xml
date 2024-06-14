@@ -7,6 +7,8 @@
         <methods>
           <include name="checkThePrice"/>
           <include name="mySetup"/>
+          <include name="pressReserveButton"/>
+          <include name="clickOnTheReserButton"/>
         </methods>
       </class> <!-- booking.myTest -->
     </classes>
